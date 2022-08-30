@@ -5,4 +5,8 @@ d = { 'settings': { 'branch': 'master',
                 'doc_host': 'https://GSmithApps.github.io',
                 'git_url': 'https://github.com/GSmithApps/nbdev-tutorial',
                 'lib_path': 'nbdev_tutorial'},
-  'syms': {'nbdev_tutorial.core': {'nbdev_tutorial.core.foo': ('core.html#foo', 'nbdev_tutorial/core.py')}}}
+  'syms': { 'nbdev_tutorial.core': {'nbdev_tutorial.core.foo': ('core.html#foo', 'nbdev_tutorial/core.py')},
+            'nbdev_tutorial.test_module': {'nbdev_tutorial.test_module.foo': ('test_name.html#foo', 'nbdev_tutorial/test_module.py')},
+            'nbdev_tutorial.test_name': { 'nbdev_tutorial.test_name.foo': ('test_name.html#foo', 'nbdev_tutorial/test_name.py'),
+                                          'nbdev_tutorial.test_name.say_hello': ( 'test_name.html#say_hello',
+                                                                                  'nbdev_tutorial/test_name.py')}}}
